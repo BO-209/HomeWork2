@@ -12,6 +12,13 @@
 		840981D41FC9CCEF00326BA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840981D21FC9CCEF00326BA1 /* Main.storyboard */; };
 		840981D61FC9CCEF00326BA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840981D51FC9CCEF00326BA1 /* Assets.xcassets */; };
 		840981D91FC9CCEF00326BA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840981D71FC9CCEF00326BA1 /* LaunchScreen.storyboard */; };
+		840981E11FC9CE1000326BA1 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840981E01FC9CE0F00326BA1 /* Contact.swift */; };
+		840981E51FC9D2D400326BA1 /* ContactViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840981E41FC9D2D400326BA1 /* ContactViewCell.swift */; };
+		8417DBFF1FD5B07000F5C1FA /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8417DBFE1FD5B07000F5C1FA /* AddContactViewController.swift */; };
+		8433BB471FE07F6D00443AC1 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840981E21FC9D23400326BA1 /* ContactViewController.swift */; };
+		845436B31FCB3BB900AFF803 /* Calling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845436B21FCB3BB900AFF803 /* Calling.swift */; };
+		845436B51FCB3CDF00AFF803 /* CallJornalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845436B41FCB3CDF00AFF803 /* CallJornalViewController.swift */; };
+		8455877E1FCD7D2700899478 /* CallJornalViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8455877D1FCD7D2700899478 /* CallJornalViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		840981D51FC9CCEF00326BA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		840981D81FC9CCEF00326BA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		840981DA1FC9CCEF00326BA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840981E01FC9CE0F00326BA1 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		840981E21FC9D23400326BA1 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		840981E41FC9D2D400326BA1 /* ContactViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewCell.swift; sourceTree = "<group>"; };
+		8417DBFE1FD5B07000F5C1FA /* AddContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
+		845436B21FCB3BB900AFF803 /* Calling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calling.swift; sourceTree = "<group>"; };
+		845436B41FCB3CDF00AFF803 /* CallJornalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallJornalViewController.swift; sourceTree = "<group>"; };
+		8455877D1FCD7D2700899478 /* CallJornalViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallJornalViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,13 @@
 			children = (
 				840981CE1FC9CCEF00326BA1 /* AppDelegate.swift */,
 				840981D01FC9CCEF00326BA1 /* ViewController.swift */,
+				840981E21FC9D23400326BA1 /* ContactViewController.swift */,
+				840981E41FC9D2D400326BA1 /* ContactViewCell.swift */,
+				840981E01FC9CE0F00326BA1 /* Contact.swift */,
+				845436B41FCB3CDF00AFF803 /* CallJornalViewController.swift */,
+				8455877D1FCD7D2700899478 /* CallJornalViewCell.swift */,
+				845436B21FCB3BB900AFF803 /* Calling.swift */,
+				8417DBFE1FD5B07000F5C1FA /* AddContactViewController.swift */,
 				840981D21FC9CCEF00326BA1 /* Main.storyboard */,
 				840981D51FC9CCEF00326BA1 /* Assets.xcassets */,
 				840981D71FC9CCEF00326BA1 /* LaunchScreen.storyboard */,
@@ -136,8 +157,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8455877E1FCD7D2700899478 /* CallJornalViewCell.swift in Sources */,
+				840981E11FC9CE1000326BA1 /* Contact.swift in Sources */,
+				8417DBFF1FD5B07000F5C1FA /* AddContactViewController.swift in Sources */,
+				845436B31FCB3BB900AFF803 /* Calling.swift in Sources */,
 				840981D11FC9CCEF00326BA1 /* ViewController.swift in Sources */,
+				8433BB471FE07F6D00443AC1 /* ContactViewController.swift in Sources */,
 				840981CF1FC9CCEF00326BA1 /* AppDelegate.swift in Sources */,
+				840981E51FC9D2D400326BA1 /* ContactViewCell.swift in Sources */,
+				845436B51FCB3CDF00AFF803 /* CallJornalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
